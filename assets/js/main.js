@@ -2,6 +2,10 @@
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
 
+  // prueva
+
+  
+   // prueva
   /**
    * Preloader
    */
@@ -23,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /**
-   * Mobile nav toggle
+   * Mobile nav toggle mostrar y ocultar la hamburguesa nav
    */
   const mobileNavShow = document.querySelector('.mobile-nav-show');
   const mobileNavHide = document.querySelector('.mobile-nav-hide');
@@ -34,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
       mobileNavToogle();
     })
   });
-
+// agregar la clase movile-nav-activeal body
   function mobileNavToogle() {
     document.querySelector('body').classList.toggle('mobile-nav-active');
     mobileNavShow.classList.toggle('d-none');

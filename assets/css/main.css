@@ -1,3 +1,6 @@
+
+
+
 /* Fonts */
 
 
@@ -408,6 +411,10 @@ section {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
+
+
+
+
 @media (max-width: 1279px) {
   .navbar {
     position: fixed;
@@ -423,7 +430,7 @@ section {
   .navbar ul {
     position: absolute;
     inset: 0;
-    padding: 50px 0 10px 0;
+    padding: 14px 0 10px 0;
     margin: 0;
     background: rgba(27, 47, 69, 0.9);
     overflow-y: auto;
@@ -434,9 +441,10 @@ section {
   .navbar a,
   .navbar a:focus {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 5px 29px;
     font-family: var(--font-default);
     font-size: 15px;
     font-weight: 600;
@@ -495,10 +503,11 @@ section {
   }
 
   .mobile-nav-active {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .mobile-nav-active .navbar {
+    max-height: 27vh;
     right: 0;
   }
 
@@ -506,7 +515,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(27, 47, 69, 0.7);
+    /* background: rgba(27, 47, 69, 0.7); */
     z-index: 9996;
   }
 }
