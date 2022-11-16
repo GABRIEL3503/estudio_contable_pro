@@ -417,6 +417,7 @@ section {
 
 @media (max-width: 1279px) {
   .navbar {
+    height: 25vh;
     position: fixed;
     top: 0;
     right: -100%;
@@ -507,7 +508,7 @@ section {
   }
 
   .mobile-nav-active .navbar {
-    max-height: 27vh;
+    max-height: 25vh;
     right: 0;
   }
 
